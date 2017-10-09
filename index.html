@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>PetFriends</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="css/style.css">
+	  <style>
+	 .mySlides{display:none;}
+	  </style>
+	</head>
+	
+	<body>
+				<div class="logo">
+					<img src="img/logo.png">
+				<h1>Pet Friends<h1>
+				</div>
+		<header>
+		   <nav>
+		     <ul>
+				 <li><a href="#">Página Inicial</a></li>
+				 <li><a href="#">Adoção</a></li>
+				 <li><a href="#">Doação</a></li>
+				 <li><a href="#">Contato</a></li>
+		     </ul>
+		   </nav>
+		</header>
+		
+		<section>
+			<div class="w3-content w3-section" style="max-width:1200px">
+				<img class="mySlides" src="img/banner.png" style="width:100%">
+				<img class="mySlides" src="img/banner2.png" style="width:100%">
+				<img class="mySlides" src="img/banner3.png" style="width:100%">
+				<img class="mySlides" src="img/banner4.png" style="width:100%">
+				<img class="mySlides" src="img/banner5.png" style="width:100%">
+			</div>
+			<script>
+			 var myIndex = 0;
+			 carousel();
+			 
+			 function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+				}
+				myIndex++;
+				if (myIndex > x.length) {myIndex = 1}
+				x[myIndex-1].style.display = "block";
+				setTimeout(carousel, 8000);
+			    }
+			</script>
+		</section>
+		
+			<section class="menu-animais">
+				<a href="#">
+					<div class="animais cao">
+						Cão
+					</div>
+				</a>
+				<a href="#">
+					<div class="animais gato">
+						Gato
+					</div>
+				</a>
+			</section>
+			<br class="both">
+			<section class="sobre">
+			<h1> Pet Friends</h1>
+			<p>Loren Ipsun Loren Ipsun Loren Ipsun Loren Ipsun Loren Ipsun Loren IpsunLoren IpsunLoren IpsunLoren IpsunLoren IpsunLoren IpsunLoren IpsunLoren IpsunLoren IpsunLoren IpsunLoren IpsunLoren IpsunLoren IpsunLoren IpsunLoren IpsunLoren IpsunLoren IpsunLoren Ipsun Loren IpsunLoren IpsunLoren IpsunLoren IpsunLoren Ipsun Loren Ipsun Loren IpsunLoren IpsunLoren Ipsun Loren Ipsun</p>
+			<p>Ipsum Loren Ipsum Loren vIpsum Ipsum Loren Ipsum LorenIpsum LorenIpsum Loren v Ipsum Loren Ipsum Loren Ipsum Loren Ipsum LorenIpsum LorenIpsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren v Ipsum Loren v Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren Ipsum Loren </p>
+			</section>
+			
+		<section class="produtos">
+			<h1>Animais</h1>
+		<div class="item-animais">
+			<img src="img/dog.png">
+			  <p class="titulo">Bob</p>
+			  <p class="preco">Brincalhão: <img src="img/brincalhao.png"><img src="img/brincalhao.png"><img src="img/brincalhao.png"></p>
+			  <p class="preco">Carinhoso: <img src="img/carinhoso.png"><img src="img/carinhoso.png"><img src="img/carinhoso.png"><img src="img/carinhoso.png"></p>
+			  <p class="preco">Sociavel: <img src="img/sociavel.png"><img src="img/sociavel.png"><img src="img/sociavel.png"></p>
+			  <p class="button">Adotar</p>
+		</div>
+		
+		<div class="item-animais">
+			<img src="img/dog.png">
+			  <p class="titulo">Bob</p>
+			  <p class="preco">Brincalhão: <img src="img/brincalhao.png"><img src="img/brincalhao.png"><img src="img/brincalhao.png"></p>
+			  <p class="preco">Carinhoso: <img src="img/carinhoso.png"><img src="img/carinhoso.png"></p>
+			  <p class="preco">Sociavel: <img src="img/sociavel.png"></p>
+			  <p class="button">Adotar</p>
+		</div>
+		
+		<div class="item-animais">
+			<img src="img/dog.png">
+			  <p class="titulo">Bob</p>
+			  <p class="preco">Brincalhão: <img src="img/brincalhao.png"><img src="img/brincalhao.png"><img src="img/brincalhao.png"></p>
+			  <p class="preco">Carinhoso: <img src="img/carinhoso.png"><img src="img/carinhoso.png"><img src="img/carinhoso.png"><img src="img/carinhoso.png"></p>
+			  <p class="preco">Sociavel: <img src="img/carinhoso.png"><img src="img/carinhoso.png"></p>
+			  <p class="button">Adotar</p>
+		</div>
+		
+		
+		<div class="item-animais">
+			<img src="img/dog.png">
+			  <p class="titulo">Bob</p>
+			  <p class="preco">Brincalhão: <img src="img/brincalhao.png"> <img src="img/brincalhao.png"> <img src="img/brincalhao.png"> <img src="img/brincalhao.png"></p>
+			  <p class="preco">Carinhoso: <img src="img/carinhoso.png"><img src="img/carinhoso.png"></p>
+			  <p class="preco">Sociavel: <img src="img/sociavel.png"> <img src="img/sociavel.png"> <img src="img/sociavel.png"> <img src="img/sociavel.png"></p>
+			  <p class="button">Adotar</p>
+		</div>
+		
+		<div class="item-animais">
+			<img src="img/cat.png">
+			  <p class="titulo">Mel</p>
+			  <p class="preco">Brincalhão: <img src="img/brincalhao.png"><img src="img/brincalhao.png"></p>
+			  <p class="preco">Carinhoso: <img src="img/carinhoso.png"><img src="img/carinhoso.png"><img src="img/carinhoso.png"></p>
+			  <p class="preco">Sociavel: <img src="img/sociavel.png"><img src="img/sociavel.png"><img src="img/sociavel.png"><img src="img/sociavel.png"></p>
+			  <p class="button">Adotar</p>
+		</div>
+		
+		<div class="item-animais">
+			<img src="img/cat.png">
+			  <p class="titulo">Mel</p>
+			  <p class="preco">Brincalhão: <img src="img/brincalhao.png"><img src="img/brincalhao.png"><img src="img/brincalhao.png"></p>
+			  <p class="preco">Carinhoso: <img src="img/carinhoso.png"><img src="img/carinhoso.png"><img src="img/carinhoso.png"></p>
+			  <p class="preco">Sociavel: <img src="img/sociavel.png"><img src="img/sociavel.png"><img src="img/sociavel.png"></p>
+			  <p class="button">Adotar</p>
+		</div>
+		
+		<div class="item-animais">
+			<img src="img/cat.png">
+			  <p class="titulo">Mel</p>
+			  <p class="preco">Brincalhão: <img src="img/brincalhao.png"><img src="img/brincalhao.png"><img src="img/brincalhao.png"></p>
+			  <p class="preco">Carinhoso: <img src="img/carinhoso.png"><img src="img/carinhoso.png"><img src="img/carinhoso.png"></p>
+			  <p class="preco">Sociavel: <img src="img/sociavel.png"><img src="img/sociavel.png"><img src="img/sociavel.png"></p>
+			  <p class="button">Adotar</p>
+		</div>
+		
+		<div class="item-animais">
+			<img src="img/cat.png">
+			  <p class="titulo">Mel</p>
+			  <p class="preco">Brincalhão: <img src="img/brincalhao.png"><img src="img/brincalhao.png"></p>
+			  <p class="preco">Carinhoso: <img src="img/carinhoso.png"><img src="img/carinhoso.png"><img src="img/carinhoso.png"></p>
+			  <p class="preco">Sociavel: <img src="img/sociavel.png"></p>
+			  <p class="button">Adotar</p>
+		</div>
+	</section>
+	
+	<br class="both">
+	
+	<section class="parceiros">
+		<h1>Nossos Parceiros</h1>
+		<img src="img/.png">
+		<img src="img/.png">
+		<img src="img/.png">
+		<img src="img/.png">
+	</section>
+	
+	<br class="both">
+	<footer>
+		Alguns Direitos Reservados - Alunos MC
+	</footer>
+	</body>
+</html>
+	
+				
+				
+				
+ 	

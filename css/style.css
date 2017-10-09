@@ -1,0 +1,164 @@
+.logo{
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}	
+
+.logo img{
+	width:150px;
+}
+
+nav{
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0 ;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+    display: block ;
+	color: white;
+	text-align: center ;
+	padding: 14px 16px ;
+	text-decoration; none ;
+}
+
+li a:hover {
+   beckground-color: #111;
+}
+
+.sobre{
+    max-width:1200px;
+	margin: 0 auto;
+}
+
+.produtos{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.item-animais{
+	width: 300px ;
+	text-align: center ;
+	padding: 20px;
+	margin-bottom:50px;
+	float: left;
+	transition:all is;
+}
+
+.item-animais img{
+	width: 200px ;
+}
+
+.item-animais:hover{
+	cursor: pointer;
+}
+
+.item-animais:hover .escalar{
+	transform: scale(1.1);
+	padding-left: 5px;
+	margin-bottom:20px;
+	
+}
+
+.button{
+	background-color: black;
+	width: 100%;
+	padding: 10px 0;
+	color: white;
+	transition: all .2s linear;
+}
+
+.button:hover{
+	background-color: #fcff00;
+	color: black;
+}
+
+.both{
+	clear: both;
+}
+
+.parceiros{
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.parceiros img{
+	width: 200px;
+	float: left;
+	margin: 0px 50px;
+}
+
+.contato{
+	max-width: 1200px;
+	margin: 100px auto 0 auto;
+}
+
+.item-contato{
+	width:600px;
+	float: left;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+	font-size:20px;
+}
+
+.menu-animais{
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+.animais{
+	box-sizing: border-box;
+	padding: 150px;
+	background-color: black;
+	text-align: center;
+	width: 500px;
+	float: left;
+	margin: 100px 50px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transform: .3s ease-on-out;
+	transition: .3s ease-in-out;
+}
+
+.animais:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	font-size: 3em;
+}
+
+
+.cao{
+	background-image: url(http://www.petmaxi.com.br/wp-content/uploads/2016/05/cachorro-filhote-triste.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.gato{
+	background-image:url(https://misanimales.com/wp-content/uploads/2016/10/crecen-los-gatos.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.preco{
+	text-align: left;
+}
+
+.preco img{
+	width: 20px;
+}
